@@ -1,6 +1,6 @@
 # 🚀 Abhishek Kumar Verma - Portfolio
 
-A modern and responsive personal portfolio website built using **React** to showcase my skills, projects, education, and experience as a **Java Backend Developer**.
+A modern and responsive personal portfolio website built using **React** to showcase my skills, projects, education, and experience as a **Java Full Stack Developer**.
 
 ---
 

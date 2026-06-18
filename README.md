@@ -163,7 +163,7 @@ npm run dev
 
 📍 Bangalore, India
 
-🔗 LinkedIn: https://linkedin.com/in/your-linkedin-profile
+🔗 LinkedIn: https://www.linkedin.com/in/abhishek-kumar-verma-1133b6282/
 
 💻 GitHub: https://github.com/hunter904535
 

@@ -1,0 +1,39 @@
+.resume {
+  display: grid;
+  gap: 36px;
+}
+
+.resume__intro .btn {
+  margin-top: 8px;
+}
+
+.resume__preview {
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  padding: 16px;
+}
+
+.resume__frame {
+  width: 100%;
+  height: 480px;
+  border: none;
+  background: #fff;
+}
+
+.resume__fallback {
+  margin-top: 12px;
+  font-size: 0.84rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.resume__fallback a {
+  color: var(--accent-2);
+  text-decoration: underline;
+}
+
+@media (min-width: 900px) {
+  .resume__frame {
+    height: 640px;
+  }
+}

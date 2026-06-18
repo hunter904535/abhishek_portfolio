@@ -1,68 +1,178 @@
-# Abhishek Kumar Verma — Portfolio
+# 🚀 Abhishek Kumar Verma - Portfolio
 
-A React + Vite portfolio site, styled in a navy / ivory / gold "dossier" theme with
-full light & dark mode support.
+A modern and responsive personal portfolio website built using **React** to showcase my skills, projects, education, and experience as a **Java Backend Developer**.
 
-## Getting started
+---
+
+## 🌐 Live Demo
+
+🔗 Coming Soon
+
+---
+
+## 📌 About
+
+This portfolio represents my professional journey, technical skills, and software development projects. It is designed to provide recruiters and developers with a quick overview of my work and capabilities.
+
+---
+
+## ✨ Features
+
+- Responsive Design
+- Light & Dark Theme
+- Professional UI
+- Smooth Navigation
+- About Me Section
+- Technical Skills
+- Education Timeline
+- Work Experience
+- Featured Projects
+- Resume Download
+- Contact Section
+- Mobile Friendly
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### Development Tools
+
+- Vite
+- VS Code
+- Git
+- GitHub
+
+---
+
+## 📂 Featured Projects
+
+### Loan Management System
+
+**Tech Stack**
+
+- Java
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- Hibernate
+- MySQL
+- REST APIs
+- JWT Authentication
+
+**Features**
+
+- Role-Based Authentication
+- Loan Processing
+- Customer Management
+- Repayment Tracking
+- RESTful APIs
+- Secure JWT Login
+
+---
+
+### Personal Portfolio Website
+
+**Tech Stack**
+
+- React
+- HTML5
+- CSS3
+- JavaScript
+- Vite
+
+**Features**
+
+- Responsive Layout
+- Light/Dark Mode
+- Project Showcase
+- Skills Section
+- Resume Download
+- Contact Information
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│
+├── assets/
+│
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── About/
+│   ├── Skills/
+│   ├── Education/
+│   ├── Experience/
+│   ├── Projects/
+│   ├── Certifications/
+│   ├── Resume/
+│   ├── Contact/
+│   └── Footer/
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/hunter904535/abhishek_portfolio.git
+```
+
+### Navigate to Project
+
+```bash
+cd abhishek_portfolio
+```
+
+### Install Dependencies
 
 ```bash
 npm install
+```
+
+### Start Development Server
+
+```bash
 npm run dev
 ```
 
-Then open the printed local URL (usually http://localhost:5173).
+---
 
-To build for production:
+## 📫 Contact
 
-```bash
-npm run build
-npm run preview   # preview the production build locally
-```
+**Abhishek Kumar Verma**
 
-## Project structure
+📧 Email: vermaawm1@gmail.com
 
-Each section of the site is an independent component with its own CSS file,
-under `src/components/<SectionName>/`. Shared design tokens (colors, fonts,
-spacing, light/dark theme variables) live in `src/index.css`.
+📱 Phone: +91 9045358980
 
-## Where to edit content
+📍 Bangalore, India
 
-Every section's text lives in a small data object or array at the top of its
-`.jsx` file — you generally don't need to touch the markup, just the data:
+🔗 LinkedIn: https://linkedin.com/in/your-linkedin-profile
 
-| Section | File |
-|---|---|
-| Name, role, intro | `src/components/Hero/Hero.jsx` |
-| Summary, objective, focus | `src/components/About/About.jsx` |
-| Skill categories | `src/components/Skills/Skills.jsx` |
-| Degrees | `src/components/Education/Education.jsx` |
-| Jobs | `src/components/Experience/Experience.jsx` |
-| Projects | `src/components/Projects/Projects.jsx` |
-| Certifications | `src/components/Certifications/Certifications.jsx` |
-| Email / phone / location | `src/components/Contact/Contact.jsx` |
+💻 GitHub: https://github.com/hunter904535
 
-## Things to finish before you publish
+---
 
-- **GitHub & LinkedIn URLs** — currently placeholder `#` links in `Hero.jsx`
-  and `Contact.jsx`. Search for `TODO` comments to find them.
-- **Certifications** — the resume didn't list any, so the section currently
-  shows an empty state. Add entries to the `CERTIFICATIONS` array once you
-  have some.
-- **Project links & screenshots** — `Projects.jsx` uses a stylized
-  initial-letter placeholder instead of real screenshots, and `githubUrl` /
-  `liveUrl` are placeholders. Swap in real repo links, live URLs, and (optionally)
-  real screenshots in `src/assets/images/`.
-- **Contact form** — `Contact.jsx`'s form is front-end only; it shows a
-  confirmation message but doesn't actually send anything. Wire it up to a
-  service like Formspree, EmailJS, or your own backend API to receive
-  messages for real.
-- **Resume file** — your resume PDF is already in `public/resume/`, used for
-  both the live preview (an `<iframe>`) and the download buttons. Replace
-  that file whenever you update your resume — no code changes needed.
+## 📄 License
 
-## Theme toggle
+This project is open source and available for learning and personal reference.
 
-Implemented in `App.jsx` with a `theme` state stored in `localStorage`
-(`portfolio-theme`) and applied via a `data-theme` attribute on the root
-`<html>` element. It defaults to the visitor's OS-level light/dark preference
-the first time they visit, then remembers their explicit choice after that.
+---
+
+⭐ If you like this project, consider giving it a Star.

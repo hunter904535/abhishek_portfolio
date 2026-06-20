@@ -6,7 +6,7 @@ A modern and responsive personal portfolio website built using **React** to show
 
 ## 🌐 Live Demo
 
-🔗 Coming Soon
+🔗 abhikrverma.netlify.app
 
 ---
 
